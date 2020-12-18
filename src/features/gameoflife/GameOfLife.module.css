@@ -1,0 +1,33 @@
+.squareBlank {
+	width: 10px;
+	height: 10px;
+	border-style: solid;
+}
+
+
+.squareFilled {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-style: solid;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.flexContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.innerContainer {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: white;
+}
+
+.mainBody {
+    height: 100vh;
+    background-color: rgb(72, 61, 139);
+}

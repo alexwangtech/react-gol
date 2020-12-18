@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import gameOfLifeReducer from '../features/gameoflife/gameOfLifeSlice';
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+	gameoflife: gameOfLifeReducer,
   },
 });
